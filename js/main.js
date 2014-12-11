@@ -8,23 +8,23 @@ var nodes = {
     aws: { 
         i:0,
         beacons: [
-          {name: "Asia Pacific (Tokyo)", url: "http://eu-west-1.aws.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
-          {name: "Asia Pacific (Singapore)", url: "http://eu-west-1.aws.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null,active: false, error: null},
-          {name: "Asia Pacific (Sydney", url: "http://eu-west-1.aws.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
-          {name: "EU (Frankfurt)", url: "http://eu-west-1.aws.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
+          {name: "Asia Pacific (Tokyo)", url: "http://ap-northeast-1.aws.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
+          {name: "Asia Pacific (Singapore)", url: "http://ap-southeast-1.aws.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null,active: false, error: null},
+          {name: "Asia Pacific (Sydney", url: "http://ap-southeast-2.aws.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
+          {name: "EU (Frankfurt)", url: "http://eu-central-1.aws.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
           {name: "EU (Ireland)", url: "http://eu-west-1.aws.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
           {name: "South America (Sao Paulo)", url: "http://sa-east-1.aws.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
-          {name: "US East (N. Virginia)", url: "http://sa-east-1.aws.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
-          {name: "US West (N. California)", url: "http://sa-east-1.aws.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
-          {name: "US West (Oregon)", url: "http://sa-east-1.aws.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
+          {name: "US East (N. Virginia)", url: "http://us-east-1.aws.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
+          {name: "US West (N. California)", url: "http://us-west-1.aws.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
+          {name: "US West (Oregon)", url: "http://us-west-2.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
         ]
     },
     gce: {
         i:0,
         beacons: [
-          {name: "US", url: "http://us-central1.gce.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
-          {name: "Europe", url: "http://europe-west1.gce.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null,active: false, error: null},
-          {name: "Asia", url: "http://asia-east1.gce.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
+          {name: "US Central", url: "http://us-central1.gce.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
+          {name: "Europe West", url: "http://europe-west1.gce.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null,active: false, error: null},
+          {name: "Asia East", url: "http://asia-east1.gce.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
         ]
     },
     azure: {

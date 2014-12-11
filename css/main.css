@@ -1,0 +1,195 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500,700,300italic,400italic,500italic,700italic);
+
+/* basis styles */
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+html{font-size:62.5%;-webkit-tap-highlight-color:rgba(0,0,0,0);height:100%;}
+body{font-family: 'Ubuntu', sans-serif;font-size:16px;line-height:1.428571429;color:#333;background-color:#ff7d05;}
+input,button,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}
+p {margin: 0 0 10px;}
+a{text-decoration:none;.transition(0.5s, ease-out);outline:none;}
+a:hover,a:focus{text-decoration:underline;outline:none;}
+a:focus{outline:none;}
+figure{margin:0}
+img{vertical-align:middle;outline:none;}
+.img-responsive{display:block;max-width:100%;height:auto}
+hr{margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #ededed;}
+
+/* global styles */
+.center-zone {display:block!important;margin-left: auto;margin-right: auto;}
+.left-zone {float:left !important;}
+.right-zone {float:right !important;}
+
+.hide {display:none !important;}
+.show {display:block !important;}
+.invisible {visibility: hidden;}
+.hidden {display:none !important;visibility: hidden !important;}
+
+.text-left {text-align:left;}
+.text-center {text-align:center;}
+.text-right {text-align:right;}
+.text-hide {font: 0/0 a;color: transparent;text-shadow: none;background-color: transparent;border: 0;}
+.text-error {color:red;}
+.text-no-margin {margin:0 !important;}
+.text-no-padding {padding:0 !important;}
+
+.list-unstyled {list-style:none; margin:0;}
+.inline li {display:inline-block;}
+
+/* text header */
+h1 {margin: 0 0 50px 0;}
+
+/* section */
+#content{background:#F3F3F3}
+.tabs .button {width:200px;}
+.tableRT {margin-top:30px;}
+
+/* color */
+.m-bg-color {
+  background-color: #ff7d05;
+}
+.s1-bg-color {
+  background-color: #ffbc7e;
+}
+.s2-bg-color {
+  background-color: #ffa34f;
+}
+.s3-bg-color {
+  background-color: #ffb570;
+}
+/* border */
+.m-br-color {
+  border-color: #ff7d05;
+}
+.s1-br-color {
+  border-color: #ffbc7e;
+}
+.s2-br-color {
+  border-color: #ffa34f;
+}
+.s3-br-color {
+  border-color: #ffb570;
+}
+/* text */
+.m-txt-color {
+  color: #ff7d05;
+}
+.s1-txt-color,
+.m-txt-color:hover {
+  color: #ffbc7e;
+}
+.s2-txt-color {
+  color: #ffa34f;
+}
+.s3-txt-color {
+  color: #ffb570;
+}
+/* td */
+.tableRT th {background-color:#ff7d05}
+
+.row1 {
+  background-color: #ffbc7e;
+}
+.row2 {
+  background-color: #ffa34f;
+}
+/* uitzonderingen */
+.homePage,
+#headerContent,
+#socialBox,
+.button {
+  background-color: #ff7d05;
+}
+.button:hover,
+.button:focus, {
+  background-color: #ffbc7e;
+}
+.sod_select {
+  border-color: #ff7d05;
+}
+.navFaq ul li a:hover {
+  background: #ff7d05 !important;
+}
+.progress-vertical-small {
+  background-color: #ffb570;
+}
+#results a,
+#results a:hover,
+#content a,
+#content a:hover,
+.mainTextColor {
+  color: #ff7d05;
+}
+
+#tab ul {
+  border-top: 2px solid #ffbc7e;
+}
+#tab ul li a {
+  border-top: 4px solid #ffbc7e;
+  color: #ff7d05;
+}
+#tab ul li.ui-state-active a {
+  border-top: 4px solid #ff7d05;
+}
+#copyrightContent {
+  border-top: 1px solid #ff7d05;
+}
+
+/* loading (icons) */
+.ri {display:inline-block;background-repeat:no-repeat;}
+.ri-spin {
+	background-image:url(../img/loading.svg); width:16px; height:16px; 
+  -webkit-animation: spin 2s infinite linear;
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+}
+
+@-moz-keyframes spin {
+  0% { -moz-transform: rotate(0deg); }
+  100% { -moz-transform: rotate(359deg); }
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(359deg); }
+}
+@-o-keyframes spin {
+  0% { -o-transform: rotate(0deg); }
+  100% { -o-transform: rotate(359deg); }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+.example-enter {
+    opacity: 0.01;
+    transition: opacity .5s ease-in;
+}
+
+.example-enter.example-enter-active {
+    opacity: 1;
+}
+
+.example-leave {
+    opacity: 1;
+    transition: opacity .5s ease-in;
+}
+
+.example-leave.example-leave-active {
+    opacity: 0.01;
+}
+
+td.name {
+    width: 350px;
+}
+
+td.latency {
+}
+

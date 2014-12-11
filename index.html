@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		
+		<title>Cloudpings - Latency monitor for clouds</title>
+		
+		<meta name="description" content="Cloudpings will show the latency between your computer and nodes of the big clouds and regions." />
+		<meta name="robots" content="index, follow, noarchive" />
+		<meta name="viewport" content="width=device-width">
+		
+		<link rel="canonical" href="" />
+
+		<link rel="stylesheet" href="css/framework.css">
+		<link rel="stylesheet" href="css/main.css">
+
+		
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="favicon.png" />
+		
+		<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+                <script>
+                  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                  ga('create', 'UA-57541901-1', 'auto');
+                  ga('send', 'pageview');
+
+                </script>
+	</head>
+	
+	<body class="cloudpings" ng-app>
+	
+	<!-- [if lt IE 8]>
+	<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+	<![endif] -->	
+
+		<section id="content">
+			<div class="container" ng-controller="MainController">
+				<h1 class="text-center"><a href="http://cloudpings.com/">Cloudpings</a></h1>
+				<div class="zone">
+					<div class="rt-xs-12">
+						<div id="tab" class="tabs">
+						</div> <!-- tab -->	
+					</div>
+				</div> <!-- zone -->
+			</div> <!-- container -->
+		</section>
+		<footer id="copyrightContent">
+			<div class="container">
+				<div class="zone">
+					<div class="rt-sm-8">
+			 			<p>&copy; 2014 by cloudpings.com</p>
+			 		</div>
+			 		<div class="rt-sm-4">
+			 			<p class="right-zone"><em><a href="http://dutchcoders.io/">DutchCoders</a></em></p>
+			 		</div>
+		 		</div> <!-- zone -->
+			</div> <!-- container -->
+		</footer> <!-- copyrightContent -->
+                <script src="//cdnjs.cloudflare.com/ajax/libs/react/0.12.1/react.js"></script>
+                <script src="//cdnjs.cloudflare.com/ajax/libs/react/0.12.1/react-with-addons.js"></script>
+                <script src="//cdnjs.cloudflare.com/ajax/libs/react/0.12.1/JSXTransformer.js"></script>
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+		
+		<!-- for tabs -->
+                <!--
+		<script src="js/jquery-ui-1.10.3.tabs.js"></script>
+		<script src="js/jquery.tabs.ui.js"></script>
+		<script src="js/jquery.bbq.js"></script>
+                -->
+                <script type="text/jsx" src="js/main.js"></script>
+	</body>
+</html>

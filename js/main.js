@@ -159,7 +159,7 @@ var PingList = React.createClass({
         return <div>
                     <ul className="text-center list-unstyled">
                             <li className={ this.state.tab == 'aws' ? 'ui-state-active active': '' } onClick={this.onClick} ><a data-cloud="aws" href="aws">Amazon EC2</a></li>
-                            <li className={ this.state.tab == 'azure' ? 'ui-state-active active': '' } onClick={this.onClick} ><a data-cloud="azure" href="azure">Microsoft Azure</a></li>
+                            <li className={ this.state.tab == 'azure' ? 'ui-state-active active hidden': 'hidden' } onClick={this.onClick} ><a data-cloud="azure" href="azure">Microsoft Azure</a></li>
                             <li className={ this.state.tab == 'gce' ? 'ui-state-active active': '' } onClick={this.onClick} ><a data-cloud="gce" href="gce">Google Compute Engine</a></li>
                     </ul>
                     <div className="rt-sm-2"></div>

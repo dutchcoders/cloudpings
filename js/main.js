@@ -16,7 +16,7 @@ var nodes = {
           {name: "South America (Sao Paulo)", url: "http://sa-east-1.aws.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
           {name: "US East (N. Virginia)", url: "http://us-east-1.aws.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
           {name: "US West (N. California)", url: "http://us-west-1.aws.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
-          {name: "US West (Oregon)", url: "http://us-west-2.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
+          {name: "US West (Oregon)", url: "http://us-west-2.aws.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
         ]
     },
     gce: {

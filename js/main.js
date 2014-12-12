@@ -32,7 +32,7 @@ var nodes = {
         beacons: [
           {name: "Central US", url: "http://central-us.azure.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
           {name: "East US", url: "http://east-us.azure.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null,active: false, error: null},
-          {name: "East US 2", url: "http://east-us.azure.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null,active: false, error: null},
+          {name: "East US 2", url: "http://east-us2.azure.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null,active: false, error: null},
           {name: "South Central US", url: "http://south-central-us.azure.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
           {name: "West US", url: "http://west-us.azure.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
           {name: "North Europe", url: "http://north-europe.azure.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},

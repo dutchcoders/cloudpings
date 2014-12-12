@@ -32,18 +32,14 @@ var nodes = {
         beacons: [
           {name: "Central US", url: "http://central-us.azure.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
           {name: "East US", url: "http://east-us.azure.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null,active: false, error: null},
-          {name: "North Central US", url: "http://north-central-us.azure.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
+          {name: "East US 2", url: "http://east-us.azure.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null,active: false, error: null},
           {name: "South Central US", url: "http://south-central-us.azure.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
           {name: "West US", url: "http://west-us.azure.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
           {name: "North Europe", url: "http://north-europe.azure.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
           {name: "West Europe", url: "http://west-europe.azure.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
           {name: "East Asia", url: "http://east-asia.azure.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
           {name: "Southeast Asia", url: "http://southeast-asia.azure.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
-          {name: "Japan East", url: "http://japan-east.azure.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
           {name: "Japan West", url: "http://japan-west.azure.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
-          {name: "Brazil South", url: "http://japan-east.azure.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
-          {name: "Australia East", url: "http://australia-east.azure.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
-          {name: "Australia Southeast", url: "http://australia-southeast.azure.cloudpings.com/ping", startTime: null, time: [], min: null, max: null, average: null, active: false, error: null},
         ]
     }
 };
@@ -159,7 +155,7 @@ var PingList = React.createClass({
         return <div>
                     <ul className="text-center list-unstyled">
                             <li className={ this.state.tab == 'aws' ? 'ui-state-active active': '' } onClick={this.onClick} ><a data-cloud="aws" href="aws">Amazon EC2</a></li>
-                            <li className={ this.state.tab == 'azure' ? 'ui-state-active active hidden': 'hidden' } onClick={this.onClick} ><a data-cloud="azure" href="azure">Microsoft Azure</a></li>
+                            <li className={ this.state.tab == 'azure' ? 'ui-state-active active': '' } onClick={this.onClick} ><a data-cloud="azure" href="azure">Microsoft Azure</a></li>
                             <li className={ this.state.tab == 'gce' ? 'ui-state-active active': '' } onClick={this.onClick} ><a data-cloud="gce" href="gce">Google Compute Engine</a></li>
                     </ul>
                     <div className="rt-sm-2"></div>

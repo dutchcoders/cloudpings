@@ -72,13 +72,13 @@ var Ping = React.createClass({
                             </ReactCSSTransitionGroup>
                         </td>
                         <td className="latency">
-                            <span>{this.props.ping.min ? this.props.ping.min + "ms" : "-"}</span>
+                            <span>{this.props.ping.min ? this.props.ping.min + " ms" : "-"}</span>
                         </td>
                         <td className="latency">
-                            <span>{this.props.ping.max ? this.props.ping.max + "ms" : "-"}</span>
+                            <span>{this.props.ping.max ? this.props.ping.max + " ms" : "-"}</span>
                         </td>
                         <td className="latency">
-                            <span>{this.props.ping.average ? Math.round(this.props.ping.average) + "ms" : "-"}</span>
+                            <span>{this.props.ping.average ? Math.round(this.props.ping.average) + " ms" : "-"}</span>
                         </td>
                 </tr>
     }

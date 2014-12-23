@@ -68,7 +68,7 @@ var Ping = React.createClass({
                         <td className="name">{this.props.ping.name} <i className={spinner}></i></td>
                         <td className="latency">
                             <ReactCSSTransitionGroup transitionName="example">
-                            <span>{this.props.ping.time.length > 0  ? this.props.ping.time[this.props.ping.time.length - 1] + "ms" : "-"}</span>
+                            <span>{this.props.ping.time.length > 0  ? this.props.ping.time[this.props.ping.time.length - 1] + " ms" : "-"}</span>
                             </ReactCSSTransitionGroup>
                         </td>
                         <td className="latency">
